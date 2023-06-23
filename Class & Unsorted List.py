@@ -8,7 +8,7 @@ from itertools import combinations
 # Define a Card class including suit and number:
 class Card:
     suits = ['S','H','D','C'] # Spade, Heart, Diamond, Club
-    numbers = [13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+    numbers = [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
     
     def __init__(self,suit,number):
         self.suit = suit
