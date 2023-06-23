@@ -6,7 +6,7 @@
 
 class Card:
     suits = ['S','H','D','C'] # Spade, Heart, Diamond, Club
-    numbers = ['A','K','Q','J','T','9','8','7','6','5','4','3','2'] # T for 10
+    numbers = [13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
     
     def __init__(self,suit,number):
         self.suit = suit
